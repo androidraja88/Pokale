@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroung_img" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical" >
+        
+        <Button
+            android:id="@+id/btn_main_gallary"
+             android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_below="@+id/btn_main_memes"
+              android:background="@drawable/startpage_button"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Gallery" />
+
+        <Button
+            android:id="@+id/btn_main_memes"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/startpage_button_up"
+            android:text="Memes"
+            android:textColor="#ffffff"
+             android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+<com.startapp.android.publish.banner.Banner
+        android:id="@+id/startAppBanner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+    </com.startapp.android.publish.banner.Banner>
+</RelativeLayout>

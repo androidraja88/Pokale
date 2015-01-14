@@ -1,0 +1,14 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+ 
+      <style name="title_bar" parent="@android:style/Theme.Holo">
+        <item name="android:singleLine">false</item>
+        <item name="android:shadowColor">#FFFFFF</item>
+        <item name="android:shadowRadius">2.75</item>
+    </style>
+    
+    
+        <style name="MyWindowTitleBackground" parent="@android:style/Theme.Holo">
+        <item name="android:background">@drawable/title</item>
+    </style>
+</resources>
